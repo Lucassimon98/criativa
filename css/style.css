@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,900;1,900&display=swap');
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+:root {
+    --azul-loja: #174580;
+}
+.btn {
+    color: white;
+    background-color: var(--azul-loja);
+}
+.btn:hover {
+    background-color: #175a80;
+    color: white;
+}
+header nav {
+    background-color: var(--azul-loja);
+}
+header .navbar-brand, header .navbar-brand img {
+    display: flex;
+    width: 50%;
+}
+main .fundo{
+    background-image: url('../img/bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+main .row {
+    height: 500px;
+    color: white;
+}
+main h1 {
+    font-size: 100px;
+}
+.imagens-loja img{
+    height: 350px;
+    width: 350px;
+    border-radius: 8px;
+}
+footer section {
+    background-color: var(--azul-loja);
+}
+footer section div {
+    height: 50px;
+}
+@media (max-width: 400px) {
+    main h1 {
+        font-size: 60px
+    }
+    .imagens-loja img {
+        width: 300px;
+    }
+}
